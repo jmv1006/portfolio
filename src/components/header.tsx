@@ -19,12 +19,12 @@ const Header = () => {
     };
 
     return (
-        <div className="w-full h-14 p-2 sticky top-0 flex items-center justify-between bg-slate-300">
-            Jonathan Andrade Valenzuela
+        <div className="w-full h-14 p-2 sticky top-0 flex items-center justify-between text-white text-lg bg-slate-500">
+            jonathan andrade valenzuela
             {matches &&
                 <div className="flex gap-4">
-                    <div className="hover:underline cursor-pointer">Resume</div>
-                    <div className="hover:underline cursor-pointer">GitHub</div>
+                    <div className="hover:underline cursor-pointer">resume</div>
+                    <div className="hover:underline cursor-pointer">github</div>
                 </div>
             }
             {!matches && <button onClick={toggleNav}>TTT</button>}

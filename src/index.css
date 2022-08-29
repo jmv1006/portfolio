@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Circular Std';
+    src: local("CircularStd"),
+    url("./font/CircularStd.ttf") format("truetype")
+}
+@layer base {
+    html {
+        font-family: Circular Std, sans-serif
+    }
+}

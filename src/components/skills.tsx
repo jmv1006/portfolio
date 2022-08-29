@@ -11,11 +11,11 @@ const Skills = () => {
     );
 
     return (
-        <div className="w-full p-2 flex flex-col items-start bg-green-300">
-            <div className="text-lg font-bold">Skills</div>
+        <div className="w-full p-2 flex flex-col items-start bg-slate-500">
+            <div className="text-lg font-bold text-white">Skills</div>
             <div className="w-full flex flex-col gap-2 p-3 items-center justify-around">
                 <div className="w-full p-2 flex flex-col justify-start items-center bg-slate-200">
-                    <strong>Languages</strong>
+                    <div className="text-lg font-extrabold">Languages</div>
                     <div className="w-full flex items-start justify-center">
                         <ul className="flex flex-col items-center">
                             {mappedLanguages}
@@ -23,7 +23,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="w-full p-2 flex flex-col justify-start items-center bg-slate-200">
-                    <strong>Technologies/Utilities</strong>
+                    <div className="text-lg font-extrabold">Technologies and Utilities</div>
                     <div className="w-full flex items-start justify-center">
                         <ul className="flex flex-col items-center">
                             {mappedTechnologies}
