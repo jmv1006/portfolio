@@ -10,7 +10,7 @@ const Projects = () => {
 
     return (
         <div className="w-full p-2 bg-white">
-            <div className="text-lg font-extrabold">Projects</div>
+            <div className="text-xl font-extrabold">Projects</div>
             <div id="projectsContainer" className="w-full flex flex-col justify-around gap-2 p-2">
                 {mappedProjects}
             </div>

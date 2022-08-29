@@ -5,7 +5,7 @@ type ProjectProps = {
 }
 const Project = ({ project }: ProjectProps) => {
     return (
-        <div className="w-full h-56 p-2 bg-slate-300">
+        <div className="w-full h-56 p-2 border border-black">
             {project.name}
             <div>{project.description}</div>
         </div>
