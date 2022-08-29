@@ -1,9 +1,10 @@
 const Header = () => {
-    return(
+
+    return (
         <div className="w-full h-14 bg-slate-300">
-            Header
+            Jonathan Andrade Valenzuela
         </div>
     )
-}
+};
 
 export default Header;
