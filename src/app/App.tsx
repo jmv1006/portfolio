@@ -6,9 +6,9 @@ import Contact from "../components/contact"
 
 function App() {
   return (
-    <div className="w-screen h-screen m-0 flex flex-col items-center justify-start">
+    <div className="w-screen h-screen overflow-auto m-0">
       <Header />
-      <div className="w-screen h-full bg-slate-400 overflow-auto">
+      <div className="w-screen h-full bg-slate-400">
         <Introduction />
         <Skills />
         <Projects />

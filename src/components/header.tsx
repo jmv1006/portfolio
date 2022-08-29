@@ -19,7 +19,7 @@ const Header = () => {
     };
 
     return (
-        <div className="w-full h-14 p-2 sticky flex items-center justify-between bg-slate-300">
+        <div className="w-full h-14 p-2 sticky top-0 flex items-center justify-between bg-slate-300">
             Jonathan Andrade Valenzuela
             {matches &&
                 <div className="flex gap-4">
