@@ -24,7 +24,7 @@ const Header = () => {
             jonathan andrade valenzuela
             {matches &&
                 <div className="flex gap-4">
-                    <a className="hover:underline cursor-pointer">resume</a>
+                    <a className="hover:underline cursor-pointer" href="https://www.dropbox.com/s/l8pkije8qat0zze/jonathan-andrade-valenzuela.pdf?dl=0" target="_blank" rel="noopener noreferrer">resume</a>
                     <a className="hover:underline cursor-pointer" href="https://github.com/jmv1006" target="_blank" rel="noopener noreferrer">github</a>
                 </div>
             }

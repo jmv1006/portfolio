@@ -11,7 +11,7 @@ const Project = ({ project }: ProjectProps) => {
     );
 
     return (
-        <div className="w-full p-2 flex flex-col items-start justify-around bg-slate-100">
+        <div className="w-full p-2 flex flex-col items-start justify-around border">
             <div className="font-circular text-lg">{project.name}</div>
             <div className="w-full flex flex-wrap items-center justify-start gap-3">
                 {mappedTech}

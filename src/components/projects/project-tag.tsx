@@ -8,7 +8,7 @@ const ProjectTag = ({ element }: any) => {
     };
 
     return (
-        <div className="flex border gap-2 rounded-lg p-1 text-xs bg-slate-300">
+        <div className="flex border gap-2 rounded-lg p-1 text-xs border">
             {element}
             {elementIcon()}
         </div>

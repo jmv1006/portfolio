@@ -5,8 +5,8 @@ const Nav = ({ toggle }: any) => {
                 <button onClick={toggle}>X</button>
             </div>
             <div className="w-full h-full flex flex-col items-center gap-3 justify-center">
-                <a className="text-4xl hover:underline cursor-pointer" href="https://github.com/jmv1006" target="_blank" rel="noopener noreferrer">Github</a>
-                <div className="text-4xl hover:underline cursor-pointer">Resume</div>
+                <a className="text-4xl hover:underline cursor-pointer" href="https://github.com/jmv1006" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a className="text-4xl hover:underline cursor-pointer" href="https://www.dropbox.com/s/l8pkije8qat0zze/jonathan-andrade-valenzuela.pdf?dl=0" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
         </div>
     )
