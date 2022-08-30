@@ -5,7 +5,7 @@ const projects = [
     repoLink: "https://github.com/jmv1006/odinbook",
     description:
       "Full stack social media app with a React frontend and a REST API on the backend",
-    tech: ["TypeScript", "Node", "React", "Express", "MySQL"],
+    tech: ["TypeScript", "Node", "React", "Express", "MySQL", "Redis"],
     image:
       "https://github.com/jmv1006/odinbook/raw/main/docs/images/userpage.png",
   },
