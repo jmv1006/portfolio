@@ -23,8 +23,8 @@ const Header = () => {
             jonathan andrade valenzuela
             {matches &&
                 <div className="flex gap-4">
-                    <div className="hover:underline cursor-pointer">resume</div>
-                    <div className="hover:underline cursor-pointer">github</div>
+                    <a className="hover:underline cursor-pointer">resume</a>
+                    <a className="hover:underline cursor-pointer" href="https://github.com/jmv1006" target="_blank" rel="noopener noreferrer">github</a>
                 </div>
             }
             {!matches && <button onClick={toggleNav}>TTT</button>}
