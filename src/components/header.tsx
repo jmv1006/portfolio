@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Nav from "./nav";
+import { default as logo } from '../assets/navlines.svg';
 
 const Header = () => {
     const [navToggled, setNavToggled] = useState(false);
@@ -27,7 +28,7 @@ const Header = () => {
                     <a className="hover:underline cursor-pointer" href="https://github.com/jmv1006" target="_blank" rel="noopener noreferrer">github</a>
                 </div>
             }
-            {!matches && <button onClick={toggleNav}>TTT</button>}
+            {!matches && <img onClick={toggleNav} src={logo} className="w-5 hover:cursor-pointer" />}
             {navToggled && <Nav toggle={toggleNav} />}
         </div>
     )
