@@ -1,7 +1,7 @@
 import icons from "../data/icons";
 
 const Skills = () => {
-    const languages = ['JavaScript', 'TypeScript', 'Python', 'HTML', 'Java']
+    const languages = ['JavaScript', 'TypeScript', 'Python', 'HTML']
     const technologies = ['React', 'Express', 'Git', 'MySQL', 'MongoDB', 'Redis', 'Tailwind CSS']
 
     const mappedLanguages = languages.map((language: string) => {
